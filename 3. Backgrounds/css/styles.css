@@ -1,0 +1,18 @@
+body {
+    background: blue url('../img/fish.jpg') no-repeat;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    background: red;
+    color: white;
+    font-size: 24px;
+}
+
+.wrapper {
+    background-color: black;
+}

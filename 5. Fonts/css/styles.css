@@ -1,0 +1,32 @@
+body {
+    background: purple url('../img/fish.jpg') no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.wrapper {
+    background-color: black;
+}
+
+.first {
+    font: italic small-caps 900 1.4em helvetica, Arial, sans-serif;
+    /* text-indent: 100px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 900; */
+}

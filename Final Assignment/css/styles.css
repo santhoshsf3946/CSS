@@ -1,0 +1,107 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    background-color: white;
+    width: 56%;
+    height: 530px;
+    margin: 100px auto;
+}
+
+.left-col {
+    padding: 93px 55px;
+    background-color: rgb(155, 59, 70);
+    color: white;
+    width: 37%;
+    height: 65%;
+    float: left;
+}
+
+h1 {
+    margin: 11px 0 30px;
+}
+
+.left-col h3 {
+    margin-top: 35px;
+}
+
+.left-col a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 97%;
+    padding-top: 13px;
+    padding-left: 10px;
+    height: 32px;
+    margin: 10px 0;
+}
+
+.left-col :nth-child(5) {
+    background-color: rgb(57, 87, 154);
+}
+
+.left-col :nth-child(6) {
+    background-color: rgb(242, 64, 51);
+}
+
+.left-col :nth-child(7) {
+    background-color: rgb(36, 169, 230);
+}
+
+.right-col {
+    float: left;
+    width: 42%;
+    padding: 10% 0 0 33px;
+}
+
+.right-col h3 {
+    font-weight: 800;
+}
+
+.inputs {
+    width: 100%;
+    height: 40px;
+    margin: 8px 0;
+    color: #aaa;
+    border: 1px solid #ddd;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+button {
+    display: block;
+    margin: 20px 0;
+    padding: 13px 25px;
+    background-color: rgb(244, 54, 79);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.red-text {
+    text-decoration: none;
+    color: rgb(155, 59, 70);
+}
+
+.right-col p a {
+    text-decoration: none;
+}
+
+strong {
+    color: #666;
+}
+
+::placeholder {
+    color: #aaa;
+    font-size: 1.2em;
+}
+
+input[type="checkbox"] {
+    accent-color: #666;
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,38 @@
+body {
+    background: purple url('../img/fish.jpg') no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.wrapper {
+    background-color: white;
+}
+
+.wrapper a {
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+.wrapper a:active {
+    background: blue;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}

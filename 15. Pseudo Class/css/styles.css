@@ -1,0 +1,96 @@
+body {
+    background: purple url('../img/fish.jpg') no-repeat;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+
+.wrapper {
+    border-bottom: 10px solid #333;
+    margin: 50px auto;
+    background-color: white;
+    width: 70%;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 300px;
+    padding: 40px 20px;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: purple;
+}
+
+.left-col {
+    float: left;
+    width: 20%;
+    margin: 40px 10% 40px 5%;
+    background: #444;
+}
+
+.main-col {
+    float: left;
+    width: 55%;
+    margin: 40px 5% 40px 5%;
+    background: #666;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+.wrapper a:active {
+    background: blue;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li:first-child {
+    font-weight: bold;
+}
+
+.floating {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

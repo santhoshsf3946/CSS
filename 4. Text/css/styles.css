@@ -1,0 +1,28 @@
+body {
+    background: purple url('../img/fish.jpg') no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    background: red;
+    color: white;
+    font-size: 24px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.wrapper {
+    background-color: black;
+}
+
+.first {
+    text-indent: 100px;
+}

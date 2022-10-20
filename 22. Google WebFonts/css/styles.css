@@ -1,0 +1,163 @@
+body {
+    background: purple;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+
+.wrapper {
+    border-bottom: 10px solid #333;
+    margin: 50px auto;
+    background-color: white;
+    background-image: -webkit-linear-gradient(left, white, #333);
+    width: 70%;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 300px;
+    padding: 40px 20px;
+}
+
+.spin {
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.spin:hover {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.main-col {
+    float: left;
+    width: 55%;
+    margin: 40px 5% 40px 5%;
+    background: #666;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+.wrapper a:active {
+    background: blue;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+}
+
+.hello {
+    font-size: 40px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #333;
+    text-shadow: 3px 3px 5px yellow, 5px 5px 5px #000;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li:first-child {
+    font-weight: bold;
+}
+
+.floating {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.tut-nav li {
+    width: 0%;
+    background-color: #666;
+    list-style: none;
+    margin: 10px 60px 10px 10px;
+    padding: 8px;
+    padding-right: 60px;
+    border-radius: 5px 20px 40px 0;
+    -moz-border-radius: 5px 20px 40px 0;
+    transition: all 0.2s ease-out;
+}
+
+.tut-nav li:hover {
+    width: 60%;
+    background-color: white;
+}
+
+.tut-nav li a {
+    background: url(../img/logosprite.png) no-repeat;
+    display: block;
+    padding: 12px 20px 12px 60px;
+}
+
+
+.tut-nav li a.first {
+    background-position: 0px -2px;
+	width: 17px;
+    height: 17px;
+}
+
+.tut-nav li a.second {
+    background-position: 0px -41px;
+	width: 17px;
+    height: 17px;
+}
+
+.tut-nav li a.third {
+    background-position: 0px -82px;
+	width: 17px;
+    height: 17px;
+}
+
+.tut-nav li a.fourth {
+    background-position: 0px -122px;
+	width: 17px;
+    height: 17px;
+}
+
+.tut-nav li a.fifth {
+    background-position: 0px -162px;
+	width: 17px;
+    height: 17px;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
